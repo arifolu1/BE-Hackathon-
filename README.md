@@ -18,7 +18,7 @@ Connects multiple pages (Home → Select Plans → Plan Details)
 Lauren - 	
 Cameron	- 
 Brian	- 
-Harif -	Repo setup, review, and integration	main
+Harif - 
 
 🧠 Quick Summary
 
