@@ -15,6 +15,7 @@ Creates meal plans based on dietary preferences (vegan, vegetarian, etc.)
 Connects multiple pages (Home → Select Plans → Plan Details)
 
 👥 Team Roles
+
 Lauren -
 
 Cameron	- 
