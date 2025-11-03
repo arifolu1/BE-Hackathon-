@@ -5,7 +5,7 @@ import { CATEGORIES, RECIPES } from "./data/recipes";
 export default function MealPlan({ onSelect }) {
   const [cat, setCat] = useState("all");
 
-  // compute filtered list once per category change
+  
   const list = useMemo(() => {
     if (cat === "all") return RECIPES;
     return RECIPES.filter(r => r.category === cat);
