@@ -1,0 +1,42 @@
+/* === GLOBAL RESET === */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: OpenSans, sans-serif;
+}
+
+/* === BACKGROUND IMAGE === */
+body {
+  background-image: url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c");
+  background-size: cover;           /* Fill the entire screen */
+  background-position: center-center;      /* Keep image centered */
+  background-repeat: no-repeat;     /* Prevent repeating */
+  background-attachment: fixed;     /* Keep image fixed when scrolling */
+  color: #080505;                   /* Black text for readability */
+  text-align: center;               /* Center text */
+  display: flex;                    /* Center content vertically */
+  flex-direction: column;           /* Stack elements top to bottom */
+  justify-content: center;          /* Vertically center content */
+  align-items: center-center;              /* Horizontally center content */
+}
+
+/* === TRANSPARENT BOX FOR TEXT === */
+.main-container {
+  background: rgba(0, 0, 0, 0.6);   /* Transparent dark box */
+  padding: 30px 50px;
+  border: #080505;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* === HEADINGS AND TEXT === */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
